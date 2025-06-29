@@ -2,163 +2,170 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Zynix OS — The Future of AI OS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZYNIX OS — by Techzam</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <style>
     * {
-      margin: 0; padding: 0;
-      box-sizing: border-box;
-      font-family: 'Segoe UI', sans-serif;
+      margin: 0; padding: 0; box-sizing: border-box;
     }
     body {
-      background: #0d0d0d;
-      color: #e0f0ff;
+      font-family: 'Roboto', sans-serif;
+      background: #fff;
+      color: #202124;
       line-height: 1.6;
-      padding: 1.2rem;
     }
-    .container {
+    section {
+      padding: 4rem 2rem;
       max-width: 960px;
       margin: auto;
-      padding: 1rem;
     }
-    h1, h2, h3 {
-      text-align: center;
-      color: #00ffff;
+    h1, h2 {
+      color: #1a73e8;
+      font-weight: 500;
+      margin-bottom: 1rem;
     }
     p {
-      text-align: center;
-      margin: 0.5rem 0;
+      color: #5f6368;
+      font-size: 1.1rem;
     }
-    .button {
-      display: block;
-      width: max-content;
+    .btn {
+      display: inline-block;
+      background-color: #1a73e8;
+      color: #fff;
       padding: 0.8rem 1.5rem;
-      margin: 1rem auto;
       border: none;
-      background: #00ffff;
-      color: #000;
-      border-radius: 5px;
+      border-radius: 6px;
+      font-weight: 500;
       text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s ease;
+      margin-top: 1.5rem;
     }
-    .button:hover {
-      background: #00cccc;
-    }
-    .roadmap, .faq {
-      margin-top: 2rem;
+    .card {
+      background: #f8f9fa;
+      border-radius: 12px;
+      padding: 2rem;
+      margin: 2rem 0;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
     }
     .faq-item {
       margin-bottom: 1rem;
+      border-bottom: 1px solid #e0e0e0;
     }
     .faq-question {
-      background: #111;
-      padding: 1rem;
       cursor: pointer;
-      border-radius: 5px;
-      font-weight: bold;
+      padding: 1rem 0;
+      font-weight: 500;
+      color: #1a73e8;
     }
     .faq-answer {
       display: none;
-      background: #1a1a1a;
-      padding: 1rem;
-      border-radius: 5px;
-      margin-top: 0.3rem;
+      padding-bottom: 1rem;
+      color: #5f6368;
     }
     footer {
+      background-color: #f1f3f4;
+      padding: 2rem;
       text-align: center;
-      margin-top: 3rem;
+      color: #5f6368;
       font-size: 0.9rem;
-      color: #888;
-    }
-    input[type="email"] {
-      width: 100%;
-      padding: 0.8rem;
-      border: none;
-      border-radius: 5px;
-      margin-top: 1rem;
-    }
-    .logo {
-      width: 100px;
-      display: block;
-      margin: 1.5rem auto;
-    }
-
-    @media (max-width: 768px) {
-      body {
-        padding: 1rem;
-      }
-      h1 {
-        font-size: 1.6rem;
-      }
     }
   </style>
 </head>
+
 <body>
-  <div class="container">
-    <img src="logo.png" alt="Zynix OS Logo" class="logo"/>
+
+<!-- About Section -->
+<section>
+  <div style="text-align: center;">
+    <img src="logo.png" alt="Zynix Logo" style="height: 80px; margin-bottom: 20px;">
     <h1>ZYNIX OS</h1>
     <p>The AI OS of the Future — From the Labs of <strong>Techzam</strong></p>
-    <p>ZYNIX OS is an AI-powered futuristic mobile interface that combines intelligent voice control, smart resume building, and adaptive UI to create a truly human-like digital experience.</p>
-    <a href="https://github.com/techzam/zynix-os" class="button">View on GitHub</a>
-    <p>Email: <a href="mailto:zy.techzam@gmail.com" style="color:#00ffff">zy.techzam@gmail.com</a></p>
-
-    <div class="download">
-      <h2>DOWNLOAD ZYNIX OS</h2>
-      <p>Be the first to experience the next-generation AI OS.</p>
-      <a href="#" class="button">Coming Soon</a>
-    </div>
-
-    <div class="roadmap">
-      <h2>ROADMAP</h2>
-      <ul style="list-style: none; padding: 0; text-align: center;">
-        <li>✅ Q2 2025: Resume Builder Launch + PDF Export</li>
-        <li>🚀 Q3 2025: Voice AI Assistant + UI Personalization</li>
-        <li>☁️ Q4 2025: Cloud Sync + User Profiles</li>
-        <li>🌐 2026: Play Store Launch + Global Rollout</li>
-      </ul>
-    </div>
-
-    <div class="join-beta">
-      <h2>Join Beta Access</h2>
-      <p>Sign up and shape the future. Get exclusive early access.</p>
-      <input type="email" placeholder="Enter your email" />
-      <a href="#" class="button">Request Access</a>
-    </div>
-
-    <div class="faq">
-      <h2>Frequently Asked Questions</h2>
-
-      <div class="faq-item">
-        <div class="faq-question">What is Zynix OS?</div>
-        <div class="faq-answer">Zynix OS is an AI-first futuristic operating system for mobile devices designed to deliver intelligent voice control, resume building, and an adaptive UI.</div>
-      </div>
-
-      <div class="faq-item">
-        <div class="faq-question">When is the public release?</div>
-        <div class="faq-answer">The public release is scheduled for early 2026, with beta access launching in Q4 2025.</div>
-      </div>
-
-      <div class="faq-item">
-        <div class="faq-question">Will Zynix OS support Android apps?</div>
-        <div class="faq-answer">Yes. Zynix OS will be compatible with most Android apps, but with a fully reimagined interface.</div>
-      </div>
-
-    </div>
-
-    <footer>
-      <p>© 2025 ZYNIX OS — Built by Techzam</p>
-    </footer>
   </div>
+  <div class="card">
+    <p>
+      ZYNIX OS is an AI-powered futuristic mobile interface with intelligent voice control, smart resume building,
+      and adaptive UI to create a human-like experience. Designed for creators, students, and dreamers.
+    </p>
+    <a href="https://github.com/techzam/zynix-os" class="btn" target="_blank">View on GitHub</a>
+  </div>
+</section>
 
-  <script>
-    // Toggle FAQ
-    document.querySelectorAll('.faq-question').forEach((question) => {
-      question.addEventListener('click', () => {
-        const answer = question.nextElementSibling;
-        answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
-      });
+<!-- Download -->
+<section>
+  <h2>Download ZYNIX OS</h2>
+  <div class="card">
+    <p>Be the first to experience the next-gen AI OS. Launching soon!</p>
+    <a href="#" class="btn">Coming Soon</a>
+  </div>
+</section>
+
+<!-- Roadmap -->
+<section>
+  <h2>Roadmap</h2>
+  <div class="card">
+    <ul style="list-style: none; padding-left: 0;">
+      <li>✅ <strong>Q2 2025:</strong> Resume Builder + PDF Export</li>
+      <li>🚧 <strong>Q3 2025:</strong> Voice AI Assistant + Personalization</li>
+      <li>🔐 <strong>Q4 2025:</strong> Cloud Sync + User Profiles</li>
+      <li>🌐 <strong>2026:</strong> Global Release + App Store</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Beta Access -->
+<section>
+  <h2>Join Beta Access</h2>
+  <div class="card">
+    <p>Sign up to shape the future of ZYNIX OS. Get early access before public launch.</p>
+    <form action="#" method="POST" style="margin-top: 1rem;">
+      <input type="email" placeholder="Your Email" required style="padding: 0.8rem; width: 80%; max-width: 400px; border: 1px solid #ccc; border-radius: 6px;">
+      <button type="submit" class="btn">Request Access</button>
+    </form>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <h2>FAQs</h2>
+  <div class="card">
+    <div class="faq-item">
+      <div class="faq-question">What is ZYNIX OS?</div>
+      <div class="faq-answer">ZYNIX OS is a futuristic AI-based operating system with voice control, resume tools, and human-centric design.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Is it free?</div>
+      <div class="faq-answer">Yes, a free version is available. Premium features come with pro access.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">When is the launch?</div>
+      <div class="faq-answer">Beta in Q3 2025. Global release in 2026.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Will it work offline?</div>
+      <div class="faq-answer">Yes, with automatic sync once you're online.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Is data secure?</div>
+      <div class="faq-answer">Yes. End-to-end encrypted and private by design.</div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 Techzam | All Rights Reserved<br>
+  Made with ❤️ by the ZYNIX OS Team
+</footer>
+
+<script>
+  // Accordion script
+  document.querySelectorAll('.faq-question').forEach(q => {
+    q.addEventListener('click', () => {
+      const a = q.nextElementSibling;
+      a.style.display = a.style.display === 'block' ? 'none' : 'block';
     });
-  </script>
+  });
+</script>
+
 </body>
 </html>

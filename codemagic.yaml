@@ -1,0 +1,2 @@
+workflows: zynix-build: name: Zynix OS Build max_build_duration: 20 environment: flutter: stable xcode: latest android_signing: - keystore_reference vars: FIREBASE_CLI_LOGIN: "true" scripts: - name: Get Flutter Packages script: | flutter pub get - name: Build APK script: | flutter build apk --release artifacts: - build/app/outputs/flutter-apk/app-release.apk publishing: email: recipients: - zy.techzam@gmail.com
+

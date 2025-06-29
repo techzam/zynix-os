@@ -1,21 +1,18 @@
-name: zynix_os
-description: A futuristic AI-powered OS in your pocket.
-publish_to: 'none'
-version: 1.0.0+1
+name: zynix_os description: ZYNIX OS - The AI OS of the Future publish_to: "none" version: 1.0.0+1
 
-environment:
-  sdk: ">=3.0.0 <4.0.0"
+environment: sdk: ">=2.18.0 <3.0.0"
 
-dependencies:
-  flutter:
-    sdk: flutter
-  firebase_core: ^2.24.2
-  provider: ^6.1.2
-  cupertino_icons: ^1.0.2
+dependencies: flutter: sdk: flutter
 
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
+Firebase
 
-flutter:
-  uses-material-design: true
+firebase_core: ^2.0.0
+
+Optional UI improvements
+
+cupertino_icons: ^1.0.2
+
+flutter: uses-material-design: true
+
+assets: - assets/logo.png
+

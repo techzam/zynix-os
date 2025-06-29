@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/zynix-logo.png" alt="ZYNIX OS Logo" width="280"/>
+  <img src="assets/"logo.png" alt="ZYNIX OS Logo" width="280"/>
 </p>
 
 <h3 align="center">Futuristic AI-Powered OS for the Next Generation</h3>
